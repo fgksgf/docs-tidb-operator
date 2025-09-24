@@ -19,7 +19,7 @@ This document describes how to perform maintenance operations on Kubernetes node
 
 ## Maintain a node
 
-### Step 1: Prepare the node
+### Step 1: Preparation
 
 1. Use the `kubectl cordon` command to mark the node to be maintained as unschedulable to prevent new Pods from being scheduled to this node:
 
